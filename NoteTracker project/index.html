@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoteTracker</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body-properties">
+  <header>
+    <div class="header-container">
+      <nav>
+        <div class="logo-image">
+          <a href="index.html"><img src="/images/cover.png" alt="NoteTracker"></a>
+        </div>
+
+        <ul class="header-list">
+          <li class="header-list-item">
+            <a href="#">Главное</a>
+          </li>
+
+          <li class="header-list-item">
+            <a href="#aboutsite">О сайте</a>
+          </li>
+        </ul>
+
+        <ul class="header-right-list">
+          <li class="header-list-item">
+            <a href="#functions">Функции</a>
+          </li>
+
+          <li class="header-list-item">
+            <a href="#aboutus">О нас</a>
+          </li>
+        </ul>
+
+        <div class="div-sign">
+          <button class="btn-header">Вход</button>
+          <button class="btn-header">Регистрация</button>
+        </div>
+
+        <div class="div-subscribe">
+          <button class="btn-header">Подписка</button>
+        </div>
+      </nav>
+    </div>
+    <hr class="line">
+  </header>
+
+  <main>
+    <!--section-1 main -->
+    <section>
+      <div class="section-first-container" id="main">
+        <ul class="container-list">
+          <li class="container-list-item">
+            <svg class="svg-icon-create" width="48.000000" height="43.000000" viewBox="0 0 48 43" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g>
+                <path
+                  d="M24 3.58L29.25 7.01L35.75 7L37.75 12.54L43.02 15.96L41 21.5L43.02 27.03L37.75 30.45L35.75 35.99L29.25 35.98L24 39.41L18.74 35.98L12.24 35.99L10.24 30.45L4.97 27.03L7 21.5L4.97 15.96L10.24 12.54L12.24 7L18.74 7.01L24 3.58Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path
+                  d="M29.25 7.01L35.75 7L37.75 12.54L43.02 15.96L41 21.5L43.02 27.03L37.75 30.45L35.75 35.99L29.25 35.98L24 39.41L18.74 35.98L12.24 35.99L10.24 30.45L4.97 27.03L7 21.5L4.97 15.96L10.24 12.54L12.24 7L18.74 7.01L24 3.58L29.25 7.01Z"
+                  stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                <path
+                  d="M16.52 22.05L16.49 22.05C16.18 21.77 16.16 21.31 16.44 20.99C16.72 20.68 17.18 20.66 17.5 20.94L17.5 20.96L16.52 22.05ZM31.49 16.49L31.49 16.46C31.81 16.18 32.27 16.2 32.55 16.52C32.83 16.83 32.81 17.29 32.5 17.57L32.47 17.57L31.49 16.49Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M17 21.5L22 25.97L32 17.02" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+              </g>
+            </svg>
+            <h2 class="first-list-heading">Создавай</h2>
+            <ul class="list-description">
+              <li>
+                Реализуй свои идеи
+              </li>
+              <li>
+                Веди личный дневник
+              </li>
+              <li>
+                Сотвори свой проект
+              </li>
+            </ul>
+          </li>
+
+          <li class="container-list-item except-container-list-item">
+            <svg class="svg-icon-organize" width="48.000000" height="44.000000" viewBox="0 0 48 44" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g>
+                <path
+                  d="M40 18.33C40 24.57 35.74 29.9 29.75 32.02L24 32.02L18.24 32.02C12.25 29.9 8 24.57 8 18.33C8 10.23 15.16 3.66 24 3.66C32.83 3.66 40 10.23 40 18.33Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path
+                  d="M29.75 32.02L24 32.02L18.24 32.02C12.25 29.9 8 24.57 8 18.33C8 10.23 15.16 3.66 24 3.66C32.83 3.66 40 10.23 40 18.33C40 24.57 35.74 29.9 29.75 32.02Z"
+                  stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                <path
+                  d="M29.02 31.97L29 31.95C29.04 31.53 29.4 31.23 29.82 31.27C30.24 31.31 30.54 31.67 30.5 32.09L30.48 32.1L29.02 31.97ZM17.51 32.1L17.49 32.09C17.45 31.67 17.75 31.31 18.17 31.27C18.59 31.23 18.95 31.53 18.99 31.95L18.97 31.97L17.51 32.1Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path
+                  d="M29.75 32.02L29.07 39.49C29.03 39.96 28.6 40.33 28.08 40.33L19.92 40.33C19.4 40.33 18.96 39.96 18.92 39.49L18.24 32.02"
+                  stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"
+                  stroke-linecap="round" />
+                <path
+                  d="M17.27 15.6L17.25 15.58C17.25 15.16 17.58 14.83 18 14.83C18.42 14.83 18.75 15.16 18.75 15.58L18.73 15.6L17.27 15.6ZM29.27 15.6L29.25 15.58C29.25 15.16 29.58 14.83 30 14.83C30.42 14.83 30.75 15.16 30.75 15.58L30.73 15.6L29.27 15.6Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M18 15.58L18 21.08L24 18.33L30 21.08L30 15.58" stroke="#FFFFFF" stroke-opacity="1.000000"
+                  stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+              </g>
+            </svg>
+
+            <h2 class="second-list-heading">Организуй</h2>
+            <ul class="second-list-description">
+              <li>
+                Поставь себе задачи и цели
+              </li>
+              <li>
+                Планируй распорядок дня
+              </li>
+              <li>
+                Следи за своими привычками
+              </li>
+            </ul>
+          </li>
+
+          <li class="container-list-item">
+            <svg class="svg-icon-inspire" width="43.000000" height="42.000000" viewBox="0 0 43 42" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g>
+                <path
+                  d="M21.5 26.25C27.43 26.25 32.25 21.41 32.25 15.44L32.25 3.5L10.75 3.5L10.75 15.44C10.75 21.41 15.56 26.25 21.5 26.25Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path
+                  d="M32.25 15.44L32.25 3.5L10.75 3.5L10.75 15.44C10.75 21.41 15.56 26.25 21.5 26.25C27.43 26.25 32.25 21.41 32.25 15.44Z"
+                  stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                <path d="M10.75 18.37L10.75 9.62L3.58 9.62C3.58 15.45 7.16 18.37 10.75 18.37Z" fill="#000000"
+                  fill-opacity="0" fill-rule="evenodd" />
+                <path d="M10.75 9.62L3.58 9.62C3.58 15.45 7.16 18.37 10.75 18.37L10.75 9.62Z" stroke="#FFFFFF"
+                  stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                <path d="M32.25 18.37L32.25 9.62L39.41 9.62C39.41 15.45 35.83 18.37 32.25 18.37Z" fill="#000000"
+                  fill-opacity="0" fill-rule="evenodd" />
+                <path d="M32.25 9.62L39.41 9.62C39.41 15.45 35.83 18.37 32.25 18.37L32.25 9.62Z" stroke="#FFFFFF"
+                  stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                <path
+                  d="M20.77 28.02L20.75 28C20.75 27.58 21.08 27.25 21.5 27.25C21.91 27.25 22.25 27.58 22.25 28L22.23 28.02L20.77 28.02ZM22.23 31.48L22.25 31.5C22.25 31.92 21.91 32.25 21.5 32.25C21.08 32.25 20.75 31.92 20.75 31.5L20.77 31.48L22.23 31.48Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M21.5 28L21.5 31.5" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+                <path d="M13.43 36.75L16.74 31.5L26.01 31.5L29.56 36.75L13.43 36.75Z" fill="#000000" fill-opacity="0"
+                  fill-rule="nonzero" />
+                <path d="M16.74 31.5L26.01 31.5L29.56 36.75L13.43 36.75L16.74 31.5Z" stroke="#FFFFFF"
+                  stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+              </g>
+            </svg>
+
+            <h2 class="third-list-heading">Вдохновляй</h2>
+            <ul class="third-list-description">
+              <li>
+                Помогай пользователям
+              </li>
+              <li>
+                Делитесь идеями вместе
+              </li>
+              <li>
+                Изучай новое
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!--section-2 main -->
+    <section id="aboutsite">
+      <div class="section-second-container">
+        <h1 class="main-heading">
+          <svg class="svg-icon-starstick" width="50.000000" height="40.000000" viewBox="0 0 71 67" fill="none"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g clip-path="url(#clip39_47)">
+              <path
+                d="M36.9 59.12L44.99 42.39L63.75 37.19L49.31 24.8L49.85 6.43L32.84 15.5L14.41 9.34L18.34 27.34L6.4 41.91L25.85 43.96L36.9 59.12Z"
+                fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+              <path
+                d="M44.99 42.39L63.75 37.19L49.31 24.8L49.85 6.43L32.84 15.5L14.41 9.34L18.34 27.34L6.4 41.91L25.85 43.96L36.9 59.12L44.99 42.39Z"
+                stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+              <path
+                d="M53.02 50.87L52.99 50.87C52.69 50.58 52.67 50.11 52.96 49.81C53.25 49.5 53.72 49.49 54.02 49.77L54.02 49.8L53.02 50.87ZM65.83 60.89L65.85 60.89C66.16 61.18 66.18 61.64 65.89 61.95C65.6 62.26 65.13 62.27 64.83 61.98L64.83 61.96L65.83 60.89Z"
+                fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+              <path d="M53.51 50.32L65.34 61.44" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"
+                stroke-linejoin="round" stroke-linecap="round" />
+            </g>
+          </svg>
+          Сделай свою жизнь проще
+          <svg class="svg-icon-thunder" width="55.665771" height="45.375610" viewBox="0 0 106.666 107.376" fill="none"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g clip-path="url(#clip39_38)">
+              <path
+                d="M53.98 15.92L85.51 24.29L59.65 43.98L85.93 50.96L31.66 85.87L49.35 54.52L24.83 48.01L53.98 15.92Z"
+                fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+              <path
+                d="M85.51 24.29L59.65 43.98L85.93 50.96L31.66 85.87L49.35 54.52L24.83 48.01L53.98 15.92L85.51 24.29Z"
+                stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+            </g>
+          </svg>
+        </h1>
+        <ul class="section-second-list">
+          <li>
+            <svg class="svg-icon-sandclock" width="70.000244" height="60.424316" viewBox="0 0 105 102.424" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g clip-path="url(#clip39_28)">
+                <path
+                  d="M15.26 33.58L15.25 33.61C14.87 33.78 14.43 33.61 14.26 33.22C14.1 32.84 14.27 32.4 14.65 32.24L14.68 32.25L15.26 33.58ZM64.29 10.58L64.3 10.55C64.68 10.39 65.12 10.56 65.29 10.94C65.46 11.33 65.28 11.76 64.9 11.93L64.87 11.92L64.29 10.58Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M14.95 32.92L64.6 11.24" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M40.7 91.83L40.69 91.86C40.31 92.03 39.87 91.86 39.7 91.47C39.53 91.09 39.71 90.65 40.09 90.49L40.12 90.5L40.7 91.83ZM89.73 68.83L89.74 68.8C90.12 68.64 90.56 68.81 90.73 69.19C90.89 69.58 90.72 70.01 90.34 70.18L90.31 70.17L89.73 68.83Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M40.39 91.17L90.04 69.49" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M20.5 30.52L20.47 30.51C20.3 30.13 20.47 29.69 20.86 29.53C21.24 29.36 21.68 29.53 21.84 29.91L21.83 29.94L20.5 30.52ZM49.37 55.47L49.4 55.46C49.79 55.62 49.97 56.05 49.8 56.44C49.64 56.83 49.21 57.01 48.82 56.84L48.81 56.82L49.37 55.47Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M21.16 30.21L28.79 47.69L49.11 56.15" stroke="#FFFDFD" stroke-opacity="1.000000"
+                  stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M84.49 71.89L84.52 71.9C84.69 72.29 84.52 72.72 84.13 72.89C83.75 73.06 83.31 72.89 83.15 72.5L83.16 72.48L84.49 71.89ZM55.04 45.51L55.01 45.52C54.61 45.39 54.4 44.97 54.53 44.57C54.66 44.17 55.07 43.96 55.47 44.09L55.49 44.12L55.04 45.51Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M83.83 72.2L74.61 51.09L55.24 44.81" stroke="#FFFDFD" stroke-opacity="1.000000"
+                  stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M47.26 88.15L47.28 88.16C47.45 88.55 47.28 88.98 46.9 89.15C46.51 89.32 46.08 89.15 45.91 88.76L45.92 88.74L47.26 88.15ZM42.97 53.94L42.95 53.91C43.12 53.52 43.55 53.35 43.94 53.52C44.33 53.68 44.5 54.12 44.33 54.5L44.31 54.51L42.97 53.94Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M46.6 88.46L37.69 68.08L43.64 54.21" stroke="#FFFDFD" stroke-opacity="1.000000"
+                  stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M57.73 14.26L57.71 14.25C57.54 13.87 57.71 13.43 58.09 13.26C58.48 13.1 58.91 13.27 59.08 13.65L59.07 13.68L57.73 14.26ZM61.41 46.97L61.42 47C61.28 47.39 60.86 47.6 60.46 47.46C60.07 47.32 59.86 46.9 60 46.51L60.03 46.49L61.41 46.97Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M58.39 13.95L66.03 31.43L60.71 46.75" stroke="#FFFDFD" stroke-opacity="1.000000"
+                  stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M49.22 69.04L49.21 69.07C48.83 69.23 48.39 69.06 48.22 68.68C48.05 68.29 48.22 67.86 48.61 67.69L48.64 67.7L49.22 69.04ZM50.15 67.04L50.16 67.01C50.55 66.85 50.98 67.02 51.15 67.4C51.32 67.79 51.15 68.22 50.76 68.39L50.74 68.38L50.15 67.04Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M48.91 68.38L50.46 67.7" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M65.75 61.01L65.73 61.02C65.33 60.88 65.13 60.46 65.27 60.06C65.41 59.66 65.83 59.46 66.23 59.6L66.24 59.63L65.75 61.01ZM67.75 60.17L67.78 60.16C68.17 60.3 68.37 60.72 68.23 61.11C68.09 61.51 67.67 61.71 67.27 61.57L67.26 61.54L67.75 60.17Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M65.98 60.31L67.53 60.86" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M61.71 72.26L61.7 72.28C61.31 72.45 60.88 72.28 60.71 71.89C60.54 71.51 60.71 71.08 61.1 70.91L61.13 70.92L61.71 72.26ZM62.64 70.26L62.65 70.23C63.04 70.06 63.47 70.23 63.64 70.62C63.81 71 63.64 71.44 63.25 71.6L63.22 71.59L62.64 70.26Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M61.4 71.59L62.95 70.92" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+              </g>
+            </svg>
+            <div class="image-container">
+              <img class="section-img" src="/images/time2.jpg" alt="Время">
+              <div class="image-description">Управляй своим временем</div>
+            </div>
+          </li>
+          <li>
+            <svg class="svg-icon-graph" width="60.031006" height="55.730835" viewBox="0 0 81.031 79.7308" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g filter="url(#filter_39_50_dd)">
+                <g clip-path="url(#clip39_50)">
+                  <path
+                    d="M9.43 24.97L9.41 24.96C9.28 24.56 9.5 24.14 9.9 24.02C10.3 23.89 10.71 24.1 10.84 24.5L10.83 24.53L9.43 24.97ZM70.66 54.3L70.67 54.28C71.07 54.15 71.48 54.36 71.61 54.76C71.74 55.16 71.52 55.58 71.12 55.71L71.1 55.69L70.66 54.3Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M10.12 24.73L24.44 69.76L70.9 54.99" stroke="#FFFDFD" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                  <path
+                    d="M32.3 56.57L32.32 56.6C32.25 57.01 31.87 57.28 31.46 57.21C31.04 57.14 30.77 56.76 30.84 56.35L30.86 56.33L32.3 56.57ZM55.86 9.87L55.84 9.85C55.9 9.43 56.28 9.16 56.69 9.22C57.11 9.28 57.39 9.66 57.32 10.07L57.3 10.09L55.86 9.87Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M31.58 56.47L35.54 33.18L52.03 40.33L56.58 9.96" stroke="#FFFDFD" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                </g>
+              </g>
+            </svg>
+
+            <div class="image-container">
+              <img class="section-img" src="/images/progress.jpg" alt="Прогресс">
+              <div class="image-description">Легко отслеживайте прогресс</div>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="section-second-list">
+          <li>
+            <svg class="svg-icon-rocket" width="90.015747" height="80.818970" viewBox="0 0 124.016 125.819" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g clip-path="url(#clip39_40)">
+                <path
+                  d="M68.96 28.78L80.46 27.22L84.78 38C87.7 45.3 87 53.78 82.89 60.83L66.44 89.07L33.57 69.92L50.02 41.68C54.13 34.63 61.16 29.84 68.96 28.78Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path
+                  d="M80.46 27.22L84.78 38C87.7 45.3 87 53.78 82.89 60.83L66.44 89.07L33.57 69.92L50.02 41.68C54.13 34.63 61.16 29.84 68.96 28.78L80.46 27.22Z"
+                  stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                <path d="M52.03 38.24L37.53 42.52L30.14 55.2L41.88 55.67L52.03 38.24Z" fill="#000000" fill-opacity="0"
+                  fill-rule="evenodd" />
+                <path d="M37.53 42.52L30.14 55.2L41.88 55.67L52.03 38.24L37.53 42.52Z" stroke="#FFFDFD"
+                  stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                <path d="M84.9 57.39L88.33 72.12L80.94 84.79L74.75 74.82L84.9 57.39Z" fill="#000000" fill-opacity="0"
+                  fill-rule="evenodd" />
+                <path d="M88.33 72.12L80.94 84.79L74.75 74.82L84.9 57.39L88.33 72.12Z" stroke="#FFFDFD"
+                  stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                <path
+                  d="M38.55 77.09L38.55 77.07C38.76 76.7 39.21 76.58 39.57 76.8C39.94 77.01 40.05 77.46 39.84 77.82L39.82 77.83L38.55 77.09ZM37.07 82.55L37.07 82.57C36.86 82.94 36.41 83.05 36.05 82.84C35.69 82.63 35.57 82.18 35.78 81.82L35.81 81.81L37.07 82.55Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M39.19 77.44L36.43 82.2" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M47.52 82.32L47.51 82.29C47.72 81.93 48.17 81.81 48.54 82.02C48.9 82.23 49.02 82.68 48.81 83.04L48.78 83.05L47.52 82.32ZM44.19 90.94L44.19 90.96C43.98 91.33 43.53 91.45 43.17 91.23C42.8 91.02 42.69 90.57 42.9 90.21L42.92 90.2L44.19 90.94Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M48.16 82.67L43.54 90.59" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+                <path
+                  d="M56.48 87.54L56.48 87.51C56.69 87.15 57.14 87.03 57.5 87.24C57.86 87.45 57.98 87.9 57.77 88.27L57.74 88.27L56.48 87.54ZM55 92.99L55 93.02C54.79 93.38 54.34 93.5 53.98 93.29C53.61 93.08 53.5 92.63 53.71 92.26L53.73 92.26L55 92.99Z"
+                  fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                <path d="M57.12 87.89L54.36 92.64" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                  stroke-linejoin="round" stroke-linecap="round" />
+              </g>
+            </svg>
+            <div class="image-container">
+              <img class="section-img" src="/images/tasks.jpg" alt="Задачи">
+              <div class="image-description">Выполняй задачи быстрее</div>
+            </div>
+          </li>
+
+          <li>
+            <div class="image-container">
+              <svg class="svg-icon-balance" width="80.036865" height="70.302612" viewBox="0 0 109.037 106.303"
+                fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g clip-path="url(#clip39_19)">
+                  <path
+                    d="M42.66 44.98L42.69 45C42.78 45.4 42.54 45.8 42.13 45.9C41.72 45.99 41.32 45.75 41.23 45.34L41.24 45.31L42.66 44.98ZM21.91 38.62L21.9 38.65C21.57 38.91 21.11 38.86 20.85 38.54C20.59 38.21 20.64 37.74 20.97 37.48L21 37.48L21.91 38.62Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M41.96 45.17L37.31 25.39L21.44 38.07" stroke="#FFFDFD" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                  <path
+                    d="M28.33 51.35C33.99 53.32 40.1 50.55 41.96 45.17L21.43 38.07C19.57 43.45 22.66 49.39 28.33 51.35Z"
+                    fill="#000000" fill-opacity="0" fill-rule="evenodd" />
+                  <path
+                    d="M41.96 45.17L21.43 38.07C19.57 43.45 22.66 49.39 28.33 51.35C33.99 53.32 40.1 50.55 41.96 45.17Z"
+                    stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                  <path
+                    d="M90.54 61.55L90.57 61.56C90.66 61.97 90.42 62.37 90.01 62.46C89.6 62.56 89.2 62.31 89.11 61.91L89.12 61.88L90.54 61.55ZM69.79 55.19L69.79 55.22C69.46 55.48 68.99 55.43 68.73 55.1C68.47 54.77 68.52 54.31 68.85 54.05L68.88 54.05L69.79 55.19Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M89.84 61.73L85.19 41.95L69.32 54.63" stroke="#FFFDFD" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                  <path
+                    d="M76.21 67.92C81.88 69.88 87.98 67.11 89.84 61.73L69.32 54.63C67.46 60.01 70.54 65.96 76.21 67.92Z"
+                    fill="#000000" fill-opacity="0" fill-rule="evenodd" />
+                  <path
+                    d="M89.84 61.73L69.32 54.63C67.46 60.01 70.54 65.96 76.21 67.92C81.88 69.88 87.98 67.11 89.84 61.73Z"
+                    stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                  <path
+                    d="M63.92 23.71L63.91 23.69C64.05 23.29 64.47 23.09 64.87 23.22C65.26 23.36 65.47 23.78 65.33 24.18L65.3 24.19L63.92 23.71ZM45.1 82.58L45.11 82.6C44.98 83 44.56 83.21 44.16 83.07C43.76 82.93 43.56 82.51 43.7 82.11L43.72 82.1L45.1 82.58Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M64.62 23.93L44.41 82.36" stroke="#FFFDFD" stroke-opacity="1.000000" stroke-width="1.500000"
+                    stroke-linejoin="round" stroke-linecap="round" />
+                  <path
+                    d="M37.09 26.08L37.07 26.1C36.67 25.96 36.46 25.54 36.6 25.14C36.74 24.75 37.16 24.54 37.56 24.68L37.57 24.7L37.09 26.08ZM85.41 41.26L85.44 41.25C85.84 41.38 86.04 41.8 85.9 42.2C85.76 42.6 85.34 42.8 84.95 42.66L84.94 42.64L85.41 41.26Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M37.31 25.39L61.25 33.67L85.19 41.95" stroke="#FFFDFD" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                  <path
+                    d="M37.09 26.08L37.07 26.1C36.67 25.96 36.46 25.54 36.6 25.14C36.74 24.75 37.16 24.54 37.56 24.68L37.57 24.7L37.09 26.08ZM85.41 41.26L85.44 41.25C85.84 41.38 86.04 41.8 85.9 42.2C85.76 42.6 85.34 42.8 84.95 42.66L84.94 42.64L85.41 41.26Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M37.31 25.39L61.25 33.67L85.19 41.95" stroke="#FFFDFD" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                  <path
+                    d="M68.57 89.95L68.59 89.93C68.99 90.07 69.19 90.49 69.06 90.89C68.92 91.29 68.5 91.49 68.1 91.35L68.09 91.33L68.57 89.95ZM20.25 74.77L20.22 74.79C19.82 74.65 19.62 74.23 19.76 73.83C19.89 73.43 20.31 73.23 20.71 73.37L20.72 73.39L20.25 74.77Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M68.35 90.64L44.41 82.36L20.46 74.08" stroke="#FFFDFD" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                </g>
+              </svg>
+              <img class="section-img" src="/images/priorities.jpg" alt="Приоритеты">
+              <div class="image-description">Устанавливай приоритеты</div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section>
+      <!--section-2 main -->
+      <div class="section-second-container">
+        <svg class="svg-icon-flystar" width="70.998779" height="70.002808" viewBox="0 0 103.999 101.003" fill="none"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path
+            d="M81.51 21.19C104.71 43.05 110.98 72.59 95.51 87.16C80.05 101.74 48.71 95.83 25.52 73.97C24.73 73.23 24.01 72.45 23.26 71.69L37.18 58.57C55.22 75.58 78.2 81.49 88.5 71.77C98.81 62.05 92.55 40.39 74.51 23.39C53.89 3.95 25.69 -0.97 11.52 12.39C4.66 18.85 2.39 28.41 4.15 38.74C1.45 26.61 3.68 15.38 11.52 7.99C26.98 -6.58 58.32 -0.68 81.51 21.19Z"
+            fill="#FDD888" fill-opacity="1.000000" fill-rule="nonzero" />
+          <path
+            d="M51.69 101C50.89 101 50.1 100.77 49.42 100.31L33.43 89.49L17.43 100.31C16.06 101.23 14.24 101.23 12.88 100.29C11.53 99.37 10.96 97.73 11.46 96.23L17.43 78.08L1.58 67.55C0.23 66.61 -0.33 64.97 0.18 63.46C0.7 61.96 2.18 60.95 3.86 60.93L23.23 60.9L29.74 43.2C30.27 41.71 31.76 40.7 33.43 40.7C35.1 40.7 36.59 41.71 37.12 43.2L43 60.9L63 60.93C64.68 60.95 66.16 61.96 66.67 63.46C67.19 64.97 66.63 66.61 65.28 67.55L49.42 78.08L55.39 96.23C55.9 97.73 55.32 99.37 53.97 100.29C53.29 100.76 52.49 101 51.69 101Z"
+            fill="#FFAC33" fill-opacity="1.000000" fill-rule="nonzero" />
+        </svg>
+        <h1 class="section-third-header">
+          Развивайся вместе с NoteTracker
+        </h1>
+        <ul class="section-third-list">
+          <li class="third-list-left">
+            Доведи свой проект до совершенства
+            <svg class="svg-icon-checkmark-first" width="40.000000" height="40.000000" viewBox="0 0 53 52" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g clip-path="url(#clip42_22)">
+                <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="53.000000"
+                  height="52.000000">
+                  <rect width="53.000000" height="52.000000" fill="#000000" fill-opacity="1.000000" />
+                </mask>
+                <g mask="url(#mask42_25)">
+                  <path
+                    d="M45.64 21.68L45.62 21.66C45.62 21.24 45.95 20.91 46.37 20.91C46.79 20.91 47.12 21.24 47.12 21.66L47.1 21.68L45.64 21.68ZM33.1 5.77L33.12 5.75C33.54 5.75 33.87 6.07 33.87 6.5C33.87 6.92 33.54 7.25 33.12 7.25L33.1 7.22L33.1 5.77Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path
+                    d="M46.37 21.66L46.37 42.25C46.37 44.04 44.89 45.5 43.06 45.5L9.93 45.5C8.1 45.5 6.62 44.04 6.62 42.25L6.62 9.75C6.62 7.95 8.1 6.5 9.93 6.5L33.12 6.5"
+                    stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"
+                    stroke-linecap="round" />
+                  <path
+                    d="M17.23 22.25L17.2 22.25C16.87 21.99 16.81 21.53 17.07 21.2C17.33 20.87 17.79 20.81 18.12 21.07L18.13 21.1L17.23 22.25ZM44.66 7.16L44.66 7.14C44.91 6.8 45.37 6.72 45.71 6.97C46.05 7.22 46.12 7.68 45.87 8.02L45.84 8.02L44.66 7.16Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M17.66 21.66L28.7 30.33L45.27 7.58" stroke="#FFFFFF" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                </g>
+              </g>
+            </svg>
+          </li>
+
+          <li class="third-list-right">
+            <svg class="svg-icon-checkmark-second" width="40.000000" height="40.000000" viewBox="0 0 53 52" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g clip-path="url(#clip42_22)">
+                <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="53.000000"
+                  height="52.000000">
+                  <rect width="53.000000" height="52.000000" fill="#000000" fill-opacity="1.000000" />
+                </mask>
+                <g mask="url(#mask42_25)">
+                  <path
+                    d="M45.64 21.68L45.62 21.66C45.62 21.24 45.95 20.91 46.37 20.91C46.79 20.91 47.12 21.24 47.12 21.66L47.1 21.68L45.64 21.68ZM33.1 5.77L33.12 5.75C33.54 5.75 33.87 6.07 33.87 6.5C33.87 6.92 33.54 7.25 33.12 7.25L33.1 7.22L33.1 5.77Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path
+                    d="M46.37 21.66L46.37 42.25C46.37 44.04 44.89 45.5 43.06 45.5L9.93 45.5C8.1 45.5 6.62 44.04 6.62 42.25L6.62 9.75C6.62 7.95 8.1 6.5 9.93 6.5L33.12 6.5"
+                    stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"
+                    stroke-linecap="round" />
+                  <path
+                    d="M17.23 22.25L17.2 22.25C16.87 21.99 16.81 21.53 17.07 21.2C17.33 20.87 17.79 20.81 18.12 21.07L18.13 21.1L17.23 22.25ZM44.66 7.16L44.66 7.14C44.91 6.8 45.37 6.72 45.71 6.97C46.05 7.22 46.12 7.68 45.87 8.02L45.84 8.02L44.66 7.16Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M17.66 21.66L28.7 30.33L45.27 7.58" stroke="#FFFFFF" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                </g>
+              </g>
+            </svg>
+            Начни контролировать свои действия и решения
+          </li>
+
+          <li class="third-list-left">
+            Стань внимательнее и увереннее
+            <svg class="svg-icon-checkmark-third" width="40.000000" height="40.000000" viewBox="0 0 53 52" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g clip-path="url(#clip42_22)">
+                <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="53.000000"
+                  height="52.000000">
+                  <rect width="53.000000" height="52.000000" fill="#000000" fill-opacity="1.000000" />
+                </mask>
+                <g mask="url(#mask42_25)">
+                  <path
+                    d="M45.64 21.68L45.62 21.66C45.62 21.24 45.95 20.91 46.37 20.91C46.79 20.91 47.12 21.24 47.12 21.66L47.1 21.68L45.64 21.68ZM33.1 5.77L33.12 5.75C33.54 5.75 33.87 6.07 33.87 6.5C33.87 6.92 33.54 7.25 33.12 7.25L33.1 7.22L33.1 5.77Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path
+                    d="M46.37 21.66L46.37 42.25C46.37 44.04 44.89 45.5 43.06 45.5L9.93 45.5C8.1 45.5 6.62 44.04 6.62 42.25L6.62 9.75C6.62 7.95 8.1 6.5 9.93 6.5L33.12 6.5"
+                    stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"
+                    stroke-linecap="round" />
+                  <path
+                    d="M17.23 22.25L17.2 22.25C16.87 21.99 16.81 21.53 17.07 21.2C17.33 20.87 17.79 20.81 18.12 21.07L18.13 21.1L17.23 22.25ZM44.66 7.16L44.66 7.14C44.91 6.8 45.37 6.72 45.71 6.97C46.05 7.22 46.12 7.68 45.87 8.02L45.84 8.02L44.66 7.16Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M17.66 21.66L28.7 30.33L45.27 7.58" stroke="#FFFFFF" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                </g>
+              </g>
+            </svg>
+          </li>
+
+          <li class="third-list-right">
+            <svg class="svg-icon-checkmark-fourth" width="40.000000" height="40.000000" viewBox="0 0 53 52" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g clip-path="url(#clip42_22)">
+                <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="53.000000"
+                  height="52.000000">
+                  <rect width="53.000000" height="52.000000" fill="#000000" fill-opacity="1.000000" />
+                </mask>
+                <g mask="url(#mask42_25)">
+                  <path
+                    d="M45.64 21.68L45.62 21.66C45.62 21.24 45.95 20.91 46.37 20.91C46.79 20.91 47.12 21.24 47.12 21.66L47.1 21.68L45.64 21.68ZM33.1 5.77L33.12 5.75C33.54 5.75 33.87 6.07 33.87 6.5C33.87 6.92 33.54 7.25 33.12 7.25L33.1 7.22L33.1 5.77Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path
+                    d="M46.37 21.66L46.37 42.25C46.37 44.04 44.89 45.5 43.06 45.5L9.93 45.5C8.1 45.5 6.62 44.04 6.62 42.25L6.62 9.75C6.62 7.95 8.1 6.5 9.93 6.5L33.12 6.5"
+                    stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"
+                    stroke-linecap="round" />
+                  <path
+                    d="M17.23 22.25L17.2 22.25C16.87 21.99 16.81 21.53 17.07 21.2C17.33 20.87 17.79 20.81 18.12 21.07L18.13 21.1L17.23 22.25ZM44.66 7.16L44.66 7.14C44.91 6.8 45.37 6.72 45.71 6.97C46.05 7.22 46.12 7.68 45.87 8.02L45.84 8.02L44.66 7.16Z"
+                    fill="#000000" fill-opacity="0" fill-rule="nonzero" />
+                  <path d="M17.66 21.66L28.7 30.33L45.27 7.58" stroke="#FFFFFF" stroke-opacity="1.000000"
+                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                </g>
+              </g>
+            </svg>
+            Узнавай для себя новое
+          </li>
+          <svg class="svg-icon-stars" width="70.000244" height="70.999756" viewBox="0 0 109 91.9998" fill="none"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M106.9 41.51L78.37 32.33L67.72 1.97C67.31 0.8 66.06 0 64.65 0C63.25 0 62 0.8 61.59 1.97L50.94 32.33L22.41 41.51C21.15 41.92 20.31 42.96 20.31 44.13C20.31 45.3 21.15 46.34 22.41 46.75L50.92 55.93L61.58 87.21C61.98 88.4 63.23 89.21 64.65 89.21C66.07 89.21 67.33 88.4 67.73 87.21L78.39 55.92L106.91 46.74C108.16 46.34 109 45.3 109 44.13C109 42.96 108.16 41.92 106.9 41.51Z"
+              fill="#FFAC33" fill-opacity="1.000000" fill-rule="nonzero" />
+            <path
+              d="M42.78 72.18L35.37 69.8L32.48 60.6C32.1 59.38 30.84 58.54 29.39 58.54C27.94 58.54 26.68 59.38 26.3 60.59L23.41 69.8L16 72.18C14.74 72.59 13.9 73.63 13.9 74.8C13.9 75.96 14.74 77.01 16 77.41L23.37 79.79L26.28 89.89C26.64 91.13 27.92 91.99 29.39 91.99C30.86 91.99 32.14 91.13 32.5 89.88L35.41 79.79L42.78 77.41C44.04 77.01 44.88 75.96 44.88 74.8C44.88 73.63 44.04 72.59 42.78 72.18ZM28.88 11.79L21.3 9.35L18.49 2.76C18.02 1.66 16.83 0.94 15.48 0.94C14.14 0.94 12.94 1.66 12.48 2.76L9.67 9.35L2.09 11.79C0.83 12.2 0 13.24 0 14.41C0 15.57 0.83 16.62 2.09 17.02L9.67 19.46L12.48 26.05C12.94 27.15 14.14 27.87 15.48 27.87C16.82 27.87 18.02 27.15 18.49 26.05L21.29 19.46L28.88 17.02C30.14 16.61 30.97 15.57 30.97 14.41C30.97 13.24 30.14 12.2 28.88 11.79Z"
+              fill="#FFCC4D" fill-opacity="1.000000" fill-rule="nonzero" />
+          </svg>
+        </ul>
+      </div>
+    </section>
+    <div class="blank">
+
+    </div>
+    <section id="functions">
+      <div class="section-function">
+        <h1 class="section-function-header">Всё, что нужно <br> для комфортной работы</h1>
+        <ul class="section-function-list">
+          <li>
+            <svg class="svg-icon-note" width="80.000000" height="80.000000" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M24.33 8.57L45.67 8.57C47.99 8.57 49.86 8.57 51.38 8.69C52.94 8.82 54.31 9.09 55.58 9.73C57.6 10.76 59.24 12.4 60.27 14.42C61.24 16.32 61.38 18.54 61.42 21.39L61.42 21.56C61.44 22.74 60.49 23.71 59.31 23.73C58.12 23.74 57.15 22.79 57.14 21.61L57.14 21.45C57.1 18.52 56.91 17.26 56.45 16.36C55.83 15.15 54.85 14.17 53.64 13.55C53.07 13.27 52.33 13.07 51.03 12.96C49.71 12.85 48.01 12.85 45.57 12.85L24.43 12.85C21.99 12.85 20.29 12.85 18.97 12.96C17.67 13.07 16.93 13.27 16.36 13.55C15.15 14.17 14.17 15.15 13.55 16.36C13.27 16.93 13.07 17.67 12.96 18.97C12.85 20.29 12.85 21.99 12.85 24.42L12.85 54.14C12.85 56.57 12.85 58.27 12.96 59.59C13.07 60.89 13.27 61.63 13.55 62.2C14.17 63.41 15.15 64.39 16.36 65.01C16.93 65.3 17.67 65.49 18.97 65.6C20.29 65.71 21.99 65.71 24.43 65.71L45.57 65.71C48.01 65.71 49.71 65.71 51.03 65.6C52.33 65.49 53.07 65.3 53.64 65.01C54.85 64.39 55.83 63.41 56.45 62.2C56.88 61.36 57.08 60.19 57.13 57.58C57.15 56.4 58.13 55.46 59.31 55.48C60.5 55.5 61.44 56.48 61.41 57.67C61.36 60.27 61.19 62.34 60.27 64.14C59.24 66.16 57.6 67.8 55.58 68.83C54.31 69.47 52.94 69.74 51.38 69.87C49.86 70 47.99 70 45.67 70L24.33 70C22.01 70 20.14 70 18.62 69.87C17.06 69.74 15.69 69.47 14.42 68.83C12.4 67.8 10.76 66.16 9.73 64.14C9.09 62.88 8.82 61.5 8.69 59.94C8.57 58.43 8.57 56.55 8.57 54.23L8.57 24.33C8.57 22.01 8.57 20.14 8.69 18.62C8.82 17.06 9.09 15.69 9.73 14.42C10.76 12.4 12.4 10.76 14.42 9.73C15.69 9.09 17.06 8.82 18.62 8.69C20.14 8.57 22.01 8.57 24.33 8.57ZM71.39 25.5C69.44 23.55 66.27 23.55 64.32 25.5L44.74 45.08C43.53 46.29 42.85 47.92 42.85 49.63L42.85 53.57C42.85 54.75 43.81 55.71 45 55.71L48.93 55.71C50.64 55.71 52.27 55.03 53.48 53.83L73.06 34.24C75.01 32.29 75.01 29.13 73.06 27.17L71.39 25.5ZM20 26.42C20 25.24 20.95 24.28 22.14 24.28L47.85 24.28C49.04 24.28 50 25.24 50 26.42C50 27.61 49.04 28.57 47.85 28.57L22.14 28.57C20.95 28.57 20 27.61 20 26.42ZM67.35 28.53C67.63 28.25 68.08 28.25 68.36 28.53L70.03 30.2C70.31 30.48 70.31 30.94 70.03 31.21L67.85 33.39L65.17 30.71L67.35 28.53ZM62.14 33.74L47.77 48.11C47.36 48.51 47.14 49.06 47.14 49.63L47.14 51.42L48.93 51.42C49.5 51.42 50.05 51.2 50.45 50.8L64.82 36.42L62.14 33.74ZM22.14 37.14C20.95 37.14 20 38.1 20 39.28C20 40.46 20.95 41.42 22.14 41.42L36.42 41.42C37.61 41.42 38.57 40.46 38.57 39.28C38.57 38.1 37.61 37.14 36.42 37.14L22.14 37.14ZM22.14 50C20.95 50 20 50.95 20 52.14C20 53.32 20.95 54.28 22.14 54.28L30.71 54.28C31.89 54.28 32.85 53.32 32.85 52.14C32.85 50.95 31.89 50 30.71 50L22.14 50Z" fill="black" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>            
+            <a href="notes.html" target="_blank">Заметки</a>
+          </li>
+          <li>
+            <svg class="svg-icon-doc" width="80.000000" height="80.000000" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <clippath id="clip59_258">
+                  <rect id="document_outline_56" rx="0.000000" width="79.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                </clippath>
+              </defs>
+              <g clip-path="url(#clip59_258)">
+                <path d="M43.99 6.04C45.07 6.29 46.05 6.69 46.99 7.28C47.89 7.84 48.6 8.44 49.98 9.81L64.18 24.01C65.76 25.58 66.39 26.33 67 27.29C67.58 28.23 67.99 29.2 68.24 30.28C68.49 31.39 68.57 32.36 68.57 34.59L68.57 54.23C68.57 59.78 68.06 62.41 66.6 65.14C65.28 67.61 63.33 69.56 60.86 70.88C58.12 72.34 55.49 72.85 49.94 72.85L31.48 72.85C25.93 72.85 23.3 72.34 20.56 70.88C18.09 69.56 16.14 67.61 14.82 65.14C13.36 62.41 12.85 59.78 12.85 54.23L12.85 22.33C12.85 18.77 13.49 15.91 14.82 13.42C16.14 10.95 18.09 9 20.56 7.68C23.06 6.35 25.91 5.71 29.47 5.71L39.68 5.71C41.91 5.71 42.89 5.79 43.99 6.04ZM40.03 10L29.47 10C26.58 10 24.42 10.48 22.58 11.46C20.86 12.38 19.52 13.72 18.6 15.44C17.62 17.28 17.14 19.44 17.14 22.33L17.14 54.23C17.14 59.13 17.52 61.09 18.6 63.12C19.52 64.84 20.86 66.18 22.58 67.1C24.61 68.19 26.58 68.57 31.48 68.57L49.94 68.57C54.84 68.57 56.81 68.19 58.84 67.1C60.56 66.18 61.9 64.84 62.82 63.12C63.9 61.09 64.28 59.13 64.28 54.23L64.28 34.59C64.28 33.79 64.27 33.2 64.25 32.74C64.03 32.81 63.81 32.85 63.57 32.85L47.85 32.85C44.3 32.85 41.42 29.97 41.42 26.42L41.42 10.71C41.42 10.47 41.46 10.24 41.53 10.03C41.14 10.01 40.66 10 40.03 10ZM45.71 11.66L45.71 26.42C45.71 27.61 46.67 28.57 47.85 28.57L62.61 28.57C62.28 28.19 61.83 27.72 61.15 27.04L47.24 13.12C46.56 12.45 46.09 11.99 45.71 11.66Z" fill="black" fill-opacity="1.000000" fill-rule="evenodd"/>
+              </g>
+            </svg>
+            <a href="document.html" target="_blank">Документы</a>
+          </li>
+          <li>
+            <svg class="svg-icon-cal" width="80.000000" height="80.000000" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <clippath id="clip59_210">
+                  <rect rx="0.000000" width="80.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                </clippath>
+              </defs>
+              <g clip-path="url(#clip59_210)">
+                <path d="M10.57 17.93C8.67 21.59 8.67 26.39 8.67 36L8.67 44C8.67 53.6 8.67 58.4 10.57 62.06C12.23 65.29 14.88 67.91 18.15 69.56C21.86 71.42 26.72 71.42 36.45 71.42L44.55 71.42C54.27 71.42 59.13 71.42 62.84 69.56C66.11 67.91 68.76 65.29 70.42 62.06C72.32 58.4 72.32 53.6 72.32 44L72.32 36C72.32 26.39 72.32 21.59 70.42 17.93C68.76 14.7 66.11 12.08 62.84 10.43C61.08 9.55 59.07 9.08 56.41 8.84L56.41 5C56.41 3.81 55.43 2.85 54.24 2.85C53.04 2.85 52.07 3.81 52.07 5L52.07 8.62C49.93 8.57 47.45 8.57 44.55 8.57L36.45 8.57C33.54 8.57 31.06 8.57 28.92 8.62L28.92 5C28.92 3.81 27.95 2.85 26.75 2.85C25.56 2.85 24.58 3.81 24.58 5L24.58 8.84C21.92 9.08 19.91 9.55 18.15 10.43C14.88 12.08 12.23 14.7 10.57 17.93ZM36.45 12.85L44.55 12.85C47.55 12.85 50 12.85 52.07 12.9L52.07 17.85C52.07 19.04 53.04 20 54.24 20C55.43 20 56.41 19.04 56.41 17.85L56.41 13.15C58.54 13.37 59.85 13.74 60.87 14.25C63.32 15.49 65.31 17.45 66.56 19.87C67.14 21 67.54 22.49 67.76 25.08C67.84 26.12 67.89 27.26 67.93 28.57L13.06 28.57C13.1 27.26 13.15 26.12 13.24 25.08C13.45 22.49 13.85 21 14.43 19.87C15.68 17.45 17.67 15.49 20.12 14.25C21.14 13.74 22.45 13.37 24.58 13.15L24.58 17.85C24.58 19.04 25.56 20 26.75 20C27.95 20 28.92 19.04 28.92 17.85L28.92 12.9C30.99 12.85 33.44 12.85 36.45 12.85ZM13.01 44L13.01 36C13.01 34.87 13.01 33.83 13.02 32.85L67.97 32.85C67.98 33.83 67.98 34.87 67.98 36L67.98 44C67.98 48.87 67.97 52.26 67.76 54.91C67.54 57.5 67.14 58.99 66.56 60.12C65.31 62.54 63.32 64.5 60.87 65.74C59.73 66.31 58.22 66.71 55.59 66.92C52.92 67.13 49.48 67.14 44.55 67.14L36.45 67.14C31.51 67.14 28.07 67.13 25.4 66.92C22.77 66.71 21.26 66.31 20.12 65.74C17.67 64.5 15.68 62.54 14.43 60.12C13.85 58.99 13.45 57.5 13.24 54.91C13.02 52.26 13.01 48.87 13.01 44ZM52.29 53.19C52.07 53.71 52.07 54.38 52.07 55.71C52.07 57.04 52.07 57.71 52.29 58.23C52.58 58.93 53.14 59.49 53.85 59.78C54.38 60 55.06 60 56.41 60C57.75 60 58.43 60 58.96 59.78C59.67 59.49 60.23 58.93 60.52 58.23C60.75 57.71 60.75 57.04 60.75 55.71C60.75 54.38 60.75 53.71 60.52 53.19C60.23 52.49 59.67 51.93 58.96 51.64C58.43 51.42 57.75 51.42 56.41 51.42C55.06 51.42 54.38 51.42 53.85 51.64C53.14 51.93 52.58 52.49 52.29 53.19Z" fill="black" fill-opacity="1.000000" fill-rule="evenodd"/>
+              </g>
+            </svg>
+            <a href="calendar.html" target="_blank">Календарь</a>
+          </li>
+        </ul>
+        <ul class="section-function-list">
+          <li>
+            <svg class="svg-icon-plan" width="80.000000" height="80.000000" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <clippath id="clip59_234">
+                  <rect rx="0.000000" width="80.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                </clippath>
+              </defs>
+              <rect rx="0.000000" width="80.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+              <g clip-path="url(#clip59_234)">
+                <path d="M26.75 5.71C27.95 5.71 28.92 6.67 28.92 7.85L28.92 10C29.92 10 30.99 10 32.15 10L38.33 10L38.33 7.85C38.33 6.67 39.3 5.71 40.5 5.71C41.69 5.71 42.66 6.67 42.66 7.85L42.66 10L48.84 10C50 10 51.07 10 52.07 10L52.07 7.85C52.07 6.67 53.04 5.71 54.24 5.71C55.43 5.71 56.41 6.67 56.41 7.85L56.41 10.15C56.44 10.15 56.48 10.16 56.52 10.16C58.58 10.32 60.33 10.67 61.92 11.47C64.51 12.78 66.61 14.85 67.93 17.41C68.74 18.98 69.09 20.7 69.26 22.74C69.42 24.74 69.42 27.21 69.42 30.33L69.42 51.09C69.42 54.21 69.42 56.68 69.26 58.68C69.09 60.71 68.74 62.44 67.93 64.01C66.61 66.57 64.51 68.64 61.92 69.94C60.33 70.75 58.58 71.09 56.52 71.26C54.5 71.42 51.99 71.42 48.84 71.42L32.15 71.42C29 71.42 26.49 71.42 24.47 71.26C22.41 71.09 20.66 70.75 19.07 69.94C16.48 68.64 14.38 66.57 13.06 64.01C12.25 62.44 11.9 60.71 11.73 58.68C11.57 56.68 11.57 54.21 11.57 51.09L11.57 30.33C11.57 27.21 11.57 24.74 11.73 22.74C11.9 20.7 12.25 18.98 13.06 17.41C14.38 14.85 16.48 12.78 19.07 11.47C20.66 10.67 22.41 10.32 24.47 10.16L24.58 10.15L24.58 7.85C24.58 6.67 25.56 5.71 26.75 5.71ZM48.74 14.28C49.98 14.28 51.08 14.28 52.07 14.29L52.07 16.42C52.07 17.61 53.04 18.57 54.24 18.57C55.43 18.57 56.41 17.61 56.41 16.42L56.41 14.45C58.06 14.6 59.11 14.87 59.95 15.29C61.72 16.18 63.16 17.6 64.06 19.35C64.51 20.22 64.79 21.32 64.93 23.09C65.08 24.89 65.08 27.19 65.08 30.42L65.08 51C65.08 54.23 65.08 56.53 64.93 58.33C64.79 60.1 64.51 61.2 64.06 62.07C63.16 63.81 61.72 65.24 59.95 66.13C59.07 66.57 57.96 66.84 56.16 66.99C54.34 67.14 52.02 67.14 48.74 67.14L32.25 67.14C28.97 67.14 26.65 67.14 24.83 66.99C23.03 66.84 21.92 66.57 21.04 66.13C19.27 65.24 17.83 63.81 16.93 62.07C16.48 61.2 16.2 60.1 16.06 58.33C15.91 56.53 15.91 54.23 15.91 51L15.91 30.42C15.91 27.19 15.91 24.89 16.06 23.09C16.2 21.32 16.48 20.22 16.93 19.35C17.83 17.6 19.27 16.18 21.04 15.29C21.88 14.87 22.93 14.6 24.58 14.45L24.58 16.42C24.58 17.61 25.56 18.57 26.75 18.57C27.95 18.57 28.92 17.61 28.92 16.42L28.92 14.29C29.91 14.28 31.01 14.28 32.25 14.28L38.33 14.28L38.33 16.42C38.33 17.61 39.3 18.57 40.5 18.57C41.69 18.57 42.66 17.61 42.66 16.42L42.66 14.28L48.74 14.28ZM55.77 33.65C56.62 32.82 56.62 31.46 55.77 30.62C54.92 29.79 53.55 29.79 52.7 30.62L36.88 46.25L29.73 39.19C28.89 38.36 27.51 38.36 26.67 39.19C25.82 40.03 25.82 41.39 26.67 42.22L35.34 50.8C36.19 51.63 37.57 51.63 38.41 50.8L55.77 33.65Z" fill="black" fill-opacity="1.000000" fill-rule="evenodd"/>
+              </g>
+            </svg>            
+            <a href="planning.html" target="_blank">Планировщик</a>
+          </li>
+          <li>
+            <svg class="svg-icon-chat" width="80.000000" height="80.000000" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <clippath id="clip59_19">
+                  <rect id="comments_outline_56" rx="0.000000" width="78.000000" height="78.000000" transform="translate(1.000000 1.000000)" fill="white" fill-opacity="0"/>
+                </clippath>
+              </defs>
+              <g clip-path="url(#clip59_19)">
+                <path d="M26.42 7.14C21.3 7.14 17.14 11.3 17.14 16.42L17.14 42.14C17.14 47.27 21.3 51.42 26.42 51.42L37.39 51.42C38.57 51.42 39.71 51.84 40.61 52.6L40.63 52.61L54.15 63.45C56.47 65.38 60 63.73 60 60.7L60 51.42L66.42 51.42C71.55 51.42 75.71 47.27 75.71 42.14L75.71 16.42C75.71 11.3 71.55 7.14 66.42 7.14L26.42 7.14ZM21.42 16.42C21.42 13.66 23.66 11.42 26.42 11.42L66.42 11.42C69.19 11.42 71.42 13.66 71.42 16.42L71.42 42.14C71.42 44.9 69.19 47.14 66.42 47.14L59.28 47.14C57.31 47.14 55.71 48.74 55.71 50.71L55.71 59.21L43.35 49.3C41.68 47.9 39.57 47.14 37.39 47.14L26.42 47.14C23.66 47.14 21.42 44.9 21.42 42.14L21.42 16.42ZM11.13 21.52C12.29 21.29 13.04 20.16 12.8 19C12.57 17.84 11.44 17.09 10.28 17.32C6.04 18.18 2.85 21.93 2.85 26.42L2.85 52.14C2.85 57.27 7.01 61.42 12.13 61.42L19.98 61.42L19.98 70.71C19.98 73.73 23.5 75.39 25.83 73.46L40.24 61.85L40.66 61.5C41.57 60.74 41.68 59.39 40.92 58.48C40.16 57.57 38.81 57.46 37.9 58.22L37.51 58.54L24.27 69.21L24.27 60.71C24.27 58.74 22.67 57.14 20.7 57.14L12.13 57.14C9.38 57.14 7.14 54.9 7.14 52.14L7.14 26.42C7.14 24.01 8.85 21.99 11.13 21.52Z" fill="black" fill-opacity="1.000000" fill-rule="evenodd"/>
+              </g>
+            </svg>
+            <a href="chatting.html" target="_blank">Форум</a>
+          </li>
+          <li>
+            <svg class="svg-icon-habits" width="80.000000" height="80.000000" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <clippath id="clip59_188">
+                  <rect id="error_triangle_outline_56" rx="0.000000" width="79.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                </clippath>
+              </defs>
+              <g clip-path="url(#clip59_188)">
+                <path d="M32.57 10C35.87 4.28 44.12 4.28 47.42 10L73.4 55C76.7 60.71 72.57 67.85 65.98 67.85L14.01 67.85C7.42 67.85 3.29 60.71 6.59 55L32.57 10ZM43.71 12.14L69.69 57.14C71.34 60 69.27 63.57 65.98 63.57L14.01 63.57C10.72 63.57 8.65 60 10.3 57.14L36.28 12.14C37.93 9.28 42.06 9.28 43.71 12.14ZM39.99 23.57C41.18 23.57 42.14 24.53 42.14 25.71L42.14 41.42L42.13 41.63C42.02 42.72 41.11 43.57 39.99 43.57C38.81 43.57 37.85 42.61 37.85 41.42L37.85 25.71L37.86 25.5C37.97 24.42 38.88 23.57 39.99 23.57ZM42.85 51.42C42.85 49.85 41.57 48.57 39.99 48.57C38.42 48.57 37.14 49.85 37.14 51.42C37.14 53 38.42 54.28 39.99 54.28C41.57 54.28 42.85 53 42.85 51.42Z" fill="black" fill-opacity="1.000000" fill-rule="evenodd"/>
+              </g>
+            </svg>            
+            <a href="habits.html" target="_blank">Привычки</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <hr class="line">
+
+  <footer id="aboutus">
+    <div class="container-footer">
+      <div class="logo-image">
+        <a href="index.html"><img src="/images/cover.png" alt="NoteTracker"></a>
+      </div>
+      <div class="container-messangers">
+        <ul class="list-messangers">
+          <li>
+            <a href="https://web.telegram.org/k/" title="Telegram">
+              <svg width="50.000000" height="52.000000" viewBox="0 0 76 80" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                  <filter id="filter_44_257_dd" x="0.000000" y="0.000000" width="76.000000" height="80.000000"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feflood flood-opacity="0" result="BackgroundImageFix" />
+                    <feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feoffset dx="0" dy="4" />
+                    <fegaussianblur stdDeviation="1.33333" />
+                    <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feblend mode="normal" in2="shape" result="effect_innerShadow_1" />
+                  </filter>
+                </defs>
+                <g filter="url(#filter_44_257_dd)">
+                  <rect id="telegram__383" width="76.000000" height="80.000000" fill="#FFFFFF" fill-opacity="0" />
+                  <path id="Shape"
+                    d="M14.2068 40.2905C11.0671 38.4404 7.45239 36.3101 3.41003 33.9253C0.355835 32.1255 -0.470703 28.2104 0.417603 25.8755C1.31055 23.5454 3.39111 21.7603 5.98462 21.0952C22.2914 16.9351 52.0929 9.3252 68.0101 5.26514C70.1855 4.71045 72.7506 4.97021 74.3466 6.43506C76.4366 8.35547 76.0376 11.3203 75.4343 13.3203C71.0121 27.9404 63.0273 54.3604 58.4958 69.3452C57.7738 71.7305 55.9689 73.8804 53.4751 74.7002C49.7225 75.8955 46.8014 73.4351 45.2814 71.4004C42.3126 67.4204 39.5719 63.7354 37.2015 60.5352L22.3959 72.3003C20.8473 73.5303 18.7716 73.7305 17.0378 72.8203C15.2993 71.9102 14.2068 70.0454 14.2068 68.0054L14.2068 40.2905ZM32.0338 45.0483C31.041 45.9531 30.2478 47.0732 29.7015 48.3232C28.3667 51.3931 25.6877 57.5435 23.7118 62.0684C23.4885 62.5781 22.9565 62.853 22.4387 62.7183C21.9163 62.5884 21.5601 62.0884 21.5885 61.5234C21.8593 55.5435 22.2631 46.6934 22.4578 42.4731C22.5243 40.978 23.3318 39.6333 24.5858 38.9282C29.8773 35.9434 44.379 27.7783 53.5513 22.6133C54.0072 22.3584 54.5677 22.5034 54.8623 22.9482C55.152 23.3984 55.0808 24.0034 54.6913 24.3584C47.3145 31.0933 36.0665 41.3682 32.0338 45.0483Z"
+                    clip-rule="evenodd" fill="#4986D0" fill-opacity="1.000000" fill-rule="evenodd" />
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.facebook.com.vn" title="Facebook">
+              <svg width="50.000000" height="52.000000" viewBox="0 0 80 80" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                  <filter id="filter_58_6_dd" x="0.000000" y="0.000000" width="80.000000" height="80.000000"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feflood flood-opacity="0" result="BackgroundImageFix" />
+                    <feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feoffset dx="0" dy="4" />
+                    <fegaussianblur stdDeviation="1.33333" />
+                    <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feblend mode="normal" in2="shape" result="effect_innerShadow_1" />
+                  </filter>
+                </defs>
+                <g filter="url(#filter_58_6_dd)">
+                  <rect id="Icon-social-facebook" rx="0.000000" width="79.000000" height="79.000000"
+                    transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                  <path id="social-facebook"
+                    d="M75.57 0L4.42 0C1.96 0 0 1.96 0 4.42L0 75.59C0 78.03 1.96 80 4.42 80L42.73 80L42.73 49.01L32.31 49.01L32.31 36.93L42.73 36.93L42.73 28.03C42.73 17.7 49.04 12.07 58.26 12.07C62.68 12.07 66.46 12.4 67.57 12.54L67.57 23.34L61.18 23.34C56.17 23.34 55.2 25.71 55.2 29.21L55.2 36.92L67.15 36.92L65.59 49L55.18 49L55.18 80L75.57 80C78.01 80 80 78.01 80 75.57L80 4.42C80 1.96 78.01 0 75.57 0Z"
+                    fill="#3F46B7" fill-opacity="1.000000" fill-rule="evenodd" />
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" title="Instagram">
+              <svg width="50.000000" height="52.000000" viewBox="0 0 80 80" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                  <filter id="filter_58_12_dd" x="0.000000" y="0.000000" width="80.000000" height="80.000000"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feflood flood-opacity="0" result="BackgroundImageFix" />
+                    <feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feoffset dx="0" dy="4" />
+                    <fegaussianblur stdDeviation="1.33333" />
+                    <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feblend mode="normal" in2="shape" result="effect_innerShadow_1" />
+                  </filter>
+                  <lineargradient x1="40.000000" y1="0.000000" x2="40.000000" y2="80.000000" id="paint_linear_58_13_0"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0.450381" stop-color="#C47FC6" />
+                    <stop offset="1.000000" stop-color="#F8D384" />
+                  </lineargradient>
+                </defs>
+                <g filter="url(#filter_58_12_dd)">
+                  <rect id="Icon-social-instagram" rx="0.000000" width="79.000000" height="79.000000"
+                    transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                  <path id="Union"
+                    d="M25 0L55 0C68.75 0 80 11.25 80 25L80 55C80 68.75 68.75 80 55 80L25 80C11.25 80 0 68.75 0 55L0 25C0 11.25 11.25 0 25 0ZM70 25C70 16.73 63.26 10 55 10L25 10C16.73 10 10 16.73 10 25L10 55C10 63.26 16.73 70 25 70L55 70C63.26 70 70 63.26 70 55L70 25ZM60 15C57.23 15 55 17.23 55 20C55 22.76 57.23 25 60 25C62.76 25 65 22.76 65 20C65 17.23 62.76 15 60 15ZM20 40C20.68 66.2 59.45 66.34 60 40C59.01 13.04 20.98 13.79 20 40ZM50 40C50 53.46 30 53.76 30 40C30 27.12 50 26.53 50 40Z"
+                    fill="url(#paint_linear_58_13_0)" fill-opacity="1.000000" fill-rule="evenodd" />
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com" title="Twitter">
+              <svg width="50.000000" height="52.000000" viewBox="0 0 80 80" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                  <filter id="filter_58_19_dd" x="0.000000" y="0.000000" width="80.000000" height="80.000000"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feflood flood-opacity="0" result="BackgroundImageFix" />
+                    <feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feoffset dx="0" dy="4" />
+                    <fegaussianblur stdDeviation="1.33333" />
+                    <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feblend mode="normal" in2="shape" result="effect_innerShadow_1" />
+                  </filter>
+                </defs>
+                <g filter="url(#filter_58_19_dd)">
+                  <rect id="Icon-twitter" rx="0.000000" width="79.000000" height="79.000000"
+                    transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                  <path id="twitter"
+                    d="M79.84 15.3C76.9 16.6 73.74 17.48 70.43 17.87C73.81 15.85 76.41 12.65 77.64 8.84C74.47 10.71 70.96 12.07 67.23 12.8C64.24 9.62 59.99 7.64 55.27 7.64C46.23 7.64 38.89 14.96 38.89 23.98C38.89 25.25 39.04 26.5 39.32 27.7C25.7 27.01 13.63 20.51 5.55 10.63C4.14 13.04 3.33 15.85 3.33 18.84C3.33 24.51 6.23 29.51 10.62 32.44C7.93 32.35 5.41 31.62 3.2 30.4C3.2 30.46 3.2 30.53 3.2 30.6C3.2 38.52 8.85 45.11 16.34 46.62C14.97 46.99 13.52 47.19 12.03 47.19C10.97 47.19 9.95 47.08 8.94 46.89C11.03 53.38 17.08 58.11 24.25 58.24C18.64 62.62 11.58 65.23 3.9 65.23C2.58 65.23 1.27 65.15 0 65C7.25 69.64 15.86 72.34 25.11 72.34C55.24 72.34 71.72 47.45 71.72 25.86C71.72 25.15 71.7 24.45 71.67 23.75C74.87 21.46 77.64 18.58 79.84 15.3L79.84 15.3L79.84 15.3Z"
+                    fill="#7EADE7" fill-opacity="1.000000" fill-rule="evenodd" />
+                </g>
+              </svg>
+
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="site-description">
+        <p>Версия 2024.1.0.4 dev</p>
+        <p>© 2024 NoteTracker</p>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

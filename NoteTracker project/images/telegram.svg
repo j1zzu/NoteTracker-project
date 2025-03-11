@@ -1,0 +1,18 @@
+<svg width="76.000000" height="80.000000" viewBox="0 0 76 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<filter id="filter_44_257_dd" x="0.000000" y="0.000000" width="76.000000" height="80.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_44_257_dd)">
+		<rect id="telegram__383" width="76.000000" height="80.000000" fill="#FFFFFF" fill-opacity="0"/>
+		<path id="Shape" d="M14.2068 40.2905C11.0671 38.4404 7.45239 36.3101 3.41003 33.9253C0.355835 32.1255 -0.470703 28.2104 0.417603 25.8755C1.31055 23.5454 3.39111 21.7603 5.98462 21.0952C22.2914 16.9351 52.0929 9.3252 68.0101 5.26514C70.1855 4.71045 72.7506 4.97021 74.3466 6.43506C76.4366 8.35547 76.0376 11.3203 75.4343 13.3203C71.0121 27.9404 63.0273 54.3604 58.4958 69.3452C57.7738 71.7305 55.9689 73.8804 53.4751 74.7002C49.7225 75.8955 46.8014 73.4351 45.2814 71.4004C42.3126 67.4204 39.5719 63.7354 37.2015 60.5352L22.3959 72.3003C20.8473 73.5303 18.7716 73.7305 17.0378 72.8203C15.2993 71.9102 14.2068 70.0454 14.2068 68.0054L14.2068 40.2905ZM32.0338 45.0483C31.041 45.9531 30.2478 47.0732 29.7015 48.3232C28.3667 51.3931 25.6877 57.5435 23.7118 62.0684C23.4885 62.5781 22.9565 62.853 22.4387 62.7183C21.9163 62.5884 21.5601 62.0884 21.5885 61.5234C21.8593 55.5435 22.2631 46.6934 22.4578 42.4731C22.5243 40.978 23.3318 39.6333 24.5858 38.9282C29.8773 35.9434 44.379 27.7783 53.5513 22.6133C54.0072 22.3584 54.5677 22.5034 54.8623 22.9482C55.152 23.3984 55.0808 24.0034 54.6913 24.3584C47.3145 31.0933 36.0665 41.3682 32.0338 45.0483Z" clip-rule="evenodd" fill="#4986D0" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="80.000000" height="80.000000" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<filter id="filter_58_6_dd" x="0.000000" y="0.000000" width="80.000000" height="80.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feflood flood-opacity="0" result="BackgroundImageFix"/>
+			<feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feoffset dx="0" dy="4"/>
+			<fegaussianblur stdDeviation="1.33333"/>
+			<fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feblend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_58_6_dd)">
+		<rect id="Icon-social-facebook" rx="0.000000" width="79.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<path id="social-facebook" d="M75.57 0L4.42 0C1.96 0 0 1.96 0 4.42L0 75.59C0 78.03 1.96 80 4.42 80L42.73 80L42.73 49.01L32.31 49.01L32.31 36.93L42.73 36.93L42.73 28.03C42.73 17.7 49.04 12.07 58.26 12.07C62.68 12.07 66.46 12.4 67.57 12.54L67.57 23.34L61.18 23.34C56.17 23.34 55.2 25.71 55.2 29.21L55.2 36.92L67.15 36.92L65.59 49L55.18 49L55.18 80L75.57 80C78.01 80 80 78.01 80 75.57L80 4.42C80 1.96 78.01 0 75.57 0Z" fill="#3F46B7" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

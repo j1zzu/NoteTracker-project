@@ -1,0 +1,322 @@
+* {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src:
+        local('Montserrat-Bold'),
+        url('../fonts/Montserrat/Montserrat-Bold') format('ttf');
+    font-weight: 500px;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src:
+        local('Montserrat-Medium'),
+        url('../fonts/Montserrat/Montserrat-Medium') format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src:
+        local('Montserrat-Regular'),
+        url('../fonts/Montserrat/Montserrat-Regular.ttf') format('ttf');
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.body-properties {
+    background: linear-gradient(115deg, #f878ff, #ffda9e, #ffffff);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+}
+
+.svg-icon-back {
+    position: absolute;
+}
+
+/*HEADER*/
+.header-div {
+    width: 1400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.header-list li {
+    border: 3px solid #60327b;
+    border-radius: 12px;
+    min-width: 100px;
+    padding: 5px 10px;
+    background-color: #cb93f0;
+    box-shadow: rgb(97, 109, 122) 0px 20px 30px -10px;
+}
+
+.header-list a:active,
+.header-list a {
+    color: rgb(25, 57, 91);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.header-list a:hover {
+    color: rgb(105, 107, 116);
+}
+
+.body-container {
+    width: 1300px;
+}
+
+.blank {
+    height: 100px;
+}
+
+.svg-icon-arrow {
+    position: absolute;
+    top: 500px;
+}
+.svg-icon-arrow2 {
+    position: absolute;
+    top: 1300px;
+}
+
+/*MAIN*/
+.svg-icon-files {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.svg-icon-diag {
+    position: absolute;
+    top: 260px;
+    left: 500px;
+}
+
+.svg-icon-doc {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.section-heading {
+    color: rgb(25, 57, 91);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+
+}
+
+.description-heading {
+    color: rgb(25, 57, 91);
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section-div {
+    box-shadow: rgb(97, 109, 122) 0px 00px 30px -10px;
+    height: 200px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-list {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-right: 35px;
+}
+
+.section-list li {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #410c43;
+    border: 3px dashed #605367;
+    border-radius: 12px;
+}
+
+.down {
+    position: relative;
+    top: 100px;
+}
+
+.images-div {
+    padding-top: 100px;
+}
+
+.images-list {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    padding-top: 70px;
+
+}
+
+.img-color {
+    width: 200px;
+}
+
+.img-fonts {
+    width: 400px;
+    position: relative;
+    left: 200px;
+}
+
+.img-area {
+    width: 400px;
+}
+
+.text-colors {
+    position: relative;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    left: 200px;
+    color:#030109;
+    border: 3px dashed #3b075d;
+    padding: 10px 10px;
+    box-shadow: rgb(97, 109, 122) 0px 00px 30px -10px;
+}
+
+.text-fonts {
+    position: relative;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    left: 300px;
+    bottom: 300px;
+    border: 3px dashed #3b075d;
+    padding: 10px 10px;
+    box-shadow: rgb(97, 109, 122) 0px 00px 30px -10px;
+}
+
+.text-area {
+    position: relative;
+    right: 200px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    border: 3px dashed #3b075d;
+    padding: 10px 10px;
+    box-shadow: rgb(97, 109, 122) 0px 00px 30px -10px;
+}
+
+.text-draw {
+    position: relative;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    left: 300px;
+    border: 3px dashed #3b075d;
+    padding: 10px 10px;
+    box-shadow: rgb(97, 109, 122) 0px 00px 30px -10px;
+}
+
+/*FOOTER */
+.container-footer {
+    padding-top: 127px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-second {
+    width: 100%;
+    max-width: 213px;
+    height: auto;
+
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.full-tags a {
+    padding: 4px 25px;
+    border: 1px solid black;
+    color: white;
+    background-color: #1565c0;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+
+.logo-container {
+    margin-bottom: 60px;
+}
+
+/*ссылки на соцсети*/
+.list-messangers {
+
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+/*что за сайт*/
+.site-description {
+    width: 1450px;
+}
+
+.site-description p {
+    font-family: Helvetica, sans-serif;
+    line-height: 20px;
+
+
+}
+
+.logo-image img {
+    width: 500px;
+    height: 200px;
+}
+
+.logo-image {
+    text-align: center;
+}
+
+.line {
+    width: 900px;
+    margin-top: 70px;
+    border: 1px solid #9399a4;
+    border-radius: 3px;
+    box-shadow: 0 20px 20px -20px #333;
+
+}

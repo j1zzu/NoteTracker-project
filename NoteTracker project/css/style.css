@@ -1,0 +1,625 @@
+/*Шрифты*/
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src:
+  local('Montserrat-Bold'),
+  url('../fonts/Montserrat/Montserrat-Bold') format('ttf');
+  font-weight: 500px;
+
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src:
+  local('Montserrat-Medium'),
+  url('../fonts/Montserrat/Montserrat-Medium') format('ttf');
+}
+
+@font-face {
+  font-family:'Montserrat-Regular';
+  src:
+  local('Montserrat-Regular'),
+  url('../fonts/Montserrat/Montserrat-Regular.ttf') format('ttf');
+}
+
+* {
+  padding: 0;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*Позиционирование header*/
+.header-container{
+  width: 1180px;
+  margin: 0 auto;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.logo-image img{
+  width: 500px;
+  height: 200px;
+}
+.logo-image {
+  text-align: center;
+  position: relative;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  gap: 100px;
+  top: 100px;
+
+}
+
+.header-right-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  gap: 150px;
+  margin-left: 850px;
+
+}
+
+.header-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width:100px;
+  min-height:40px;
+
+}
+
+.div-sign {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.div-subscribe {
+  text-align: center;
+  margin-top: 30px;;
+}
+
+/*Позиционирование section-1 main*/
+.section-first-container {
+  width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.container-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 200px;
+  padding-bottom:50px;
+}
+
+
+/*First block*/
+.list-description {
+  padding-left:20px;
+}
+
+.list-description li {
+  list-style-type: none;
+}
+
+.first-list-heading {
+  text-align:right;
+  margin-right: 50px;
+}
+
+.list-description li:not(:last-child) {
+  margin-bottom:10px;
+}
+
+/*Second Block*/
+.second-list-heading {
+  text-align: center;
+}
+
+.second-list-description li:not(:last-child) {
+  margin-bottom:10px;
+}
+
+.second-list-description{
+  text-align: center;
+
+}
+.second-list-description li{
+  list-style-type: none;
+}
+
+.except-container-list-item {
+  margin-top: 130px;
+}
+
+/*Third Block*/
+.third-list-heading{
+  text-align: left;
+  margin-left:50px;
+}
+.third-list-description {
+  margin-right:20px;
+}
+.third-list-description li {
+  text-align: right;
+  list-style-type: none;
+}
+.third-list-description li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/*svg-icon-first*/
+.svg-icon-create {
+  position: absolute;
+  margin-left: 55px;
+  margin-top:15px;
+}
+
+/*svg-icon-second*/
+.svg-icon-organize {
+  position: absolute;
+  margin-left: 20px;
+  margin-top:15px;
+}
+
+/*svg-icon-third*/
+.svg-icon-inspire {
+  position: absolute;
+  margin-left: 235px;
+  margin-top:15px;
+}
+
+/*Позиционирование section-main-2*/
+.section-second-container {
+  width: 1300px;
+  margin: 0 auto;
+  padding-top:20px;
+  margin-bottom: 100px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.main-heading {
+  text-align: center;
+  margin-top: 10px;
+}
+ /*svg-icon-starstick */
+.svg-icon-starstick {
+  margin-right: 10px;
+}
+
+/*svg-icon-sandclock*/
+.svg-icon-sandclock {
+  position: absolute;
+  margin-top: 100px;
+}
+
+/*svg-icon-graph*/
+.svg-icon-graph {
+  position: absolute;
+}
+
+/*svg-icon-rocket*/
+.svg-icon-rocket {
+  position: absolute;
+  margin-left: 350px;
+}
+
+/*svg-icon-balance*/
+.svg-icon-balance {
+  position: absolute;
+  margin-left:350px;
+
+}
+.section-second-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  padding:0px;
+  list-style-type: none;
+  margin-top: 65px;
+}
+
+.section-second-container ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/*Позиционирование section-main-3*/
+.section-third-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 120px;
+  margin-top: 80px;
+
+}
+.section-third-list li {
+  list-style-type: none;
+}
+
+.section-third-header{
+  padding-left: 100px;
+  margin-top:40px;
+  margin-bottom:50px;
+
+}
+
+.third-list-left {
+  text-align: left;
+  margin-left: 100px;
+}
+.third-list-right {
+  text-align: right;
+  margin-right: 130px;
+}
+
+/*svg-icon-flystar*/
+.svg-icon-flystar {
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 10px;
+}
+/*svg-icon-stars*/
+.svg-icon-stars {
+  position: absolute;
+  margin-top: 480px;
+  margin-right:300px;
+
+}
+
+/*svg-icon-checkmark1*/
+.svg-icon-checkmark-first {
+  position: absolute;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*svg-icon-checkmark2*/
+.svg-icon-checkmark-second {
+  position: relative;
+  top: 10px;
+  right:10px;
+}
+
+/*svg-icon-checkmark3*/
+.svg-icon-checkmark-third {
+  position: absolute;
+  margin-left: 20px;
+}
+
+/*svg-icon-checkmark4*/
+.svg-icon-checkmark-fourth {
+  position: relative;
+  right:10px;
+  top:10px;
+
+}
+
+/*Визуализация body*/
+.body-properties {
+  background: linear-gradient(115deg, #5efce8, #736efe);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+/*Визуализация header*/
+.btn-header {
+  border: 1px solid #1522F1;
+  border-radius: 12px;
+  min-width:236px;
+  min-height:67px;
+  background-color:#1522F1;
+  box-shadow: rgb(97, 109, 122) 0px 20px 30px -10px;
+  font-size: 24px;
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #fff;
+  cursor:pointer;
+
+}
+
+.header-list-item {
+  background-color: #1522F1;
+  border: 1px solid #1522F1;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.header-list-item a {
+  font-size: 18px;
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #fff;
+  text-decoration: none;
+
+}
+/*Визуализация линий*/
+.line {
+  width: 900px;
+  margin-top: 70px;
+  border: 1px solid #1447b4;
+  border-radius: 3px;
+  box-shadow: 0 20px 20px -20px #333;
+
+}
+/*Визуализация section-1 main */
+
+.container-list-item {
+  border: 1px solid #1522F1;
+  min-width: 300px;
+  min-height: 190px;
+  border-radius: 38px;
+  background-color: #3E1BE6;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+/*Визуализация main-heading */
+.first-list-heading{
+  font-family: 'Montserrat-Medium',sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.second-list-heading{
+  font-family: 'Montserrat-Medium',sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.third-list-heading{
+  font-family: 'Montserrat-Medium',sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+/*Визуализация main-li */
+.list-description li{
+  color: #fff;
+  font-family:'Montserrat-Regular',sans-serif;
+}
+
+.second-list-description li{
+  color: #fff;
+  font-family:'Montserrat-Regular',sans-serif;
+}
+
+.third-list-description li{
+  color: #fff;
+  font-family:'Montserrat-Regular',sans-serif;
+}
+
+/*Визуализация section-2-main*/
+.section-second-container {
+  box-shadow: inset 0px 4px 290px 0px rgba(0, 0, 0, 0.42);
+  background: rgb(63, 70, 183);
+  border-radius: 70px;
+  height: 740px;
+}
+
+.main-heading {
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.section-img {
+  width:220px;
+  height:200px;
+  object-fit: cover;
+  border-radius: 60px;
+  box-shadow: 0px 4px 43px 2px rgba(0, 0, 0, 0.25);
+}
+
+.image-description {
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 24px;
+
+}
+
+/*Визуализация section-3-main*/
+.section-third-header {
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+.section-third-list li {
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 30px;
+
+}
+
+.section-function {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+
+/*footer*/
+.container-footer {
+  padding-top: 127px;
+  width: 1180px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo-second {
+  width: 100%;
+  max-width: 213px;
+  height: auto;
+  
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.full-tags a {
+  padding: 4px 25px;
+  border: 1px solid black;
+  color: white;
+  background-color: #1565c0;
+  text-decoration: none;
+  font-family:  Helvetica, sans-serif;
+}
+
+.logo-container {
+  margin-bottom: 60px;
+}
+
+/*ссылки на соцсети*/
+.list-messangers {
+  
+  align-items:center;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+/*что за сайт*/
+.site-description {
+  width:1450px;
+}
+.site-description p {
+  font-family:  Helvetica, sans-serif;
+  line-height: 20px;
+  
+
+}
+/*Визуализация SECTION-2 */
+.section-two-text a {
+  border: 1px solid black;
+  color: white;
+  background-color: #1565c0;
+  text-decoration: none;
+  font-family:  Helvetica, sans-serif;
+}
+.family-text-container a {
+  font-size:28px;
+  color: black;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+
+}
+
+.news-tags-list a{
+  border: 1px solid #C4C4C4;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color:black;
+}
+
+.section-function {
+  padding: 20px 30px;
+  box-shadow: rgb(97, 109, 122) 0px 20px 30px -10px;
+  border-radius: 12px;
+}
+.section-function-header {
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #000000;
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+.section-function-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  padding-top: 70px;
+
+}
+
+.section-function-list li {
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #000000;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+.section-function-list a:active,
+.section-function-list a{
+  text-decoration: none;
+  color: #0c064f;
+}
+.section-function-list a:hover {
+  color:#2d33e4;
+}
+.svg-icon-doc {
+  position: relative;
+  left: 100px;
+  bottom: 20px;
+}
+.svg-icon-note {
+  position: relative;
+  bottom: 20px;
+  left: 90px;
+}
+.svg-icon-cal {
+  position: relative;
+  bottom: 20px;
+  left: 100px;
+}
+.svg-icon-diary {
+  position: relative;
+  bottom: 20px;
+  left: 90px;
+}
+.svg-icon-plan {
+  position: relative;
+  bottom: 20px;
+  left: 115px;
+}
+.svg-icon-chat {
+  position: relative;
+  bottom: 20px;
+  left: 85px;  
+}
+.svg-icon-habits {
+  position: relative;
+  bottom: 20px;
+  left: 98px;
+}
+.svg-icon-project {
+  position: relative;
+  bottom: 20px;
+  left: 90px;
+}
+
+.blank {
+  height: 100px;
+}

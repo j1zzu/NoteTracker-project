@@ -1,0 +1,22 @@
+<svg width="80.000000" height="80.000000" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<filter id="filter_58_12_dd" x="0.000000" y="0.000000" width="80.000000" height="80.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feflood flood-opacity="0" result="BackgroundImageFix"/>
+			<feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feoffset dx="0" dy="4"/>
+			<fegaussianblur stdDeviation="1.33333"/>
+			<fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feblend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+		</filter>
+		<linearGradient x1="40.000000" y1="0.000000" x2="40.000000" y2="80.000000" id="paint_linear_58_13_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.450381" stop-color="#C47FC6"/>
+			<stop offset="1.000000" stop-color="#F8D384"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_58_12_dd)">
+		<rect id="Icon-social-instagram" rx="0.000000" width="79.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<path id="Union" d="M25 0L55 0C68.75 0 80 11.25 80 25L80 55C80 68.75 68.75 80 55 80L25 80C11.25 80 0 68.75 0 55L0 25C0 11.25 11.25 0 25 0ZM70 25C70 16.73 63.26 10 55 10L25 10C16.73 10 10 16.73 10 25L10 55C10 63.26 16.73 70 25 70L55 70C63.26 70 70 63.26 70 55L70 25ZM60 15C57.23 15 55 17.23 55 20C55 22.76 57.23 25 60 25C62.76 25 65 22.76 65 20C65 17.23 62.76 15 60 15ZM20 40C20.68 66.2 59.45 66.34 60 40C59.01 13.04 20.98 13.79 20 40ZM50 40C50 53.46 30 53.76 30 40C30 27.12 50 26.53 50 40Z" fill="url(#paint_linear_58_13_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
