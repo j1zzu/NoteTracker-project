@@ -3,4 +3,4 @@
 ## Важно
 Сайт разрабатывается совместно с @Denrezit - https://github.com/Denrezit
 ### Просмотр проекта
-[Ссылка на сайт](https://j1zzu.github.io/NoteTracker-project/)
+([https://j1zzu.github.io/NoteTracker-project/](https://j1zzu.github.io/NoteTracker-project/))
